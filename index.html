@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/26efd9f4bb.js" crossorigin="anonymous"></script>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex">
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-title">
+                    Quiz Game
+                </h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score"></span>/<span id="total-question"></span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question">
+                    <!-- What is the full form of HTTP???
+                    <br>
+                    <span class="category">Geography</span> -->
+                </h2>
+                <ul class="quiz-options">
+                    <!-- <li>1. Hyper text transfer package</li>
+                    <li>1. Hyper text transfer package</li>
+                    <li>1. Hyper text transfer package</li>
+                    <li>1. Hyper text transfer package</li> -->
+                </ul>
+                <div id="result">
+                    <!-- Result here -->
+                </div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
